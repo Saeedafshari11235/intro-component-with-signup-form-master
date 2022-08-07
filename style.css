@@ -7,19 +7,6 @@
     --DarkBlue: hsl(249, 10%, 26%);
     --GrayishBlue: hsl(246, 25%, 77%);
 }
-/***************reset******************/
-html, body, div, span,h1, h2, 
-h3, h4, h5, h6,strong, form {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-body {
-	line-height: 1;
-}
 /**************************************/
 body{
     display: flex;
