@@ -24,7 +24,7 @@ body{
 main{
     display: flex;
     flex-direction: row;
-    margin: 0 15rem;
+    margin: 0 17rem;
 }
 .txt{
     color: #fff;
@@ -34,4 +34,18 @@ h1{
     font-weight: 700;
     font-size: 3em;
     line-height: 1em;
+}
+div.login{
+    display: flex;
+    flex-direction: column;
+}
+div.banner{
+    background-color: var(--Blue);
+    text-align: center;
+    color: #fff;
+    width: 30rem;
+    padding: 0.05rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.4rem #DC6767;
+    margin-bottom: 1rem;
 }
