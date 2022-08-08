@@ -24,7 +24,7 @@ body{
 main{
     display: flex;
     flex-direction: row;
-    width: 63rem;
+    width: 67rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -87,4 +87,12 @@ input::placeholder{
     border-radius: 0.25rem;
     font-weight: 500;
     box-shadow: 0 0.2rem hsl(154, 59%, 45%);
+}
+.terms{
+    color: var(--GrayishBlue);
+    font-size: 0.6em;
+}
+.terms span{
+    color: var(--Red);
+    font-weight: 700;
 }
