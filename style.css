@@ -59,20 +59,20 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 24rem;
     box-shadow: 0 0.4rem #DC6767;
     justify-content: space-around;
     padding: 2rem;
 }
 input{
     width: 25rem;
-    height: 2.8rem;
-    /*margin-top: 1.5rem;
-    margin-left: -0.7rem;*/
+    height: 3rem;
     border-radius: 0.25rem;
     border: solid 1px var(--GrayishBlue);
     outline: none;
     padding-left: 2rem;
+    background-image: url(./images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
 }
 input::placeholder{
     font-family: 'Poppins' sans-serifs;
@@ -88,11 +88,23 @@ input::placeholder{
     font-weight: 500;
     box-shadow: 0 0.2rem hsl(154, 59%, 45%);
 }
+.trial:hover{
+    background-color: #77E2B4;
+}
 .terms{
     color: var(--GrayishBlue);
     font-size: 0.6em;
+    margin-top: 1rem;
 }
 .terms span{
     color: var(--Red);
     font-weight: 700;
+}
+.alert{
+    margin-right: -65%;
+    text-align: end;
+    color: var(--Red);
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
