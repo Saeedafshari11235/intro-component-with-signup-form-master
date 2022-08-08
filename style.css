@@ -78,3 +78,13 @@ input::placeholder{
     font-family: 'Poppins' sans-serifs;
     font-weight: 700;
 }
+.trial{
+    background-color: var(--Green);
+    width: 26rem;
+    text-align: center;
+    color: #fff;
+    padding: 0.8rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    box-shadow: 0 0.2rem hsl(154, 59%, 45%);
+}
