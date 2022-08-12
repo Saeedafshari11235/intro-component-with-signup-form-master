@@ -71,7 +71,7 @@ input{
     border: solid 1px var(--GrayishBlue);
     outline: none;
     padding-left: 2rem;
-    background-image: url(./images/icon-error.svg);
+    /*background-image: url(./images/icon-error.svg);*/
     background-repeat: no-repeat;
     background-position: 95% 50%;
 }
@@ -88,6 +88,7 @@ input::placeholder{
     border-radius: 0.25rem;
     font-weight: 500;
     box-shadow: 0 0.2rem hsl(154, 59%, 45%);
+    transition: 0.3s;
 }
 .trial:hover{
     background-color: #77E2B4;
