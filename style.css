@@ -18,6 +18,8 @@ body{
     align-items: center;
     background-image: url(./images/bg-intro-desktop.png);
     background-color: var(--Red);
+    background-size: cover;
+    background-attachment: fixed;
     flex-direction: column;
     overflow: hidden;
 }
@@ -74,6 +76,13 @@ input{
     /*background-image: url(./images/icon-error.svg);*/
     background-repeat: no-repeat;
     background-position: 95% 50%;
+}
+.wrong{
+    background-image: url(./images/icon-error.svg);
+    border-color: var(--Red);
+}
+.wrong::placeholder{
+    color: var(--Red);
 }
 input::placeholder{
     font-family: 'Poppins' sans-serifs;
