@@ -102,11 +102,19 @@ input::placeholder{
     color: var(--Red);
     font-weight: 700;
 }
-.alert{
+.alertoff{
     margin-right: -65%;
     text-align: end;
     color: var(--Red);
     font-size: 0.7rem;
     margin-top: -0.5rem;
     display: none;
+}
+.alerton{
+    margin-right: -65%;
+    text-align: end;
+    color: var(--Red);
+    font-size: 0.7rem;
+    margin-top: -0.5rem;
+    display: block;
 }
